@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="./resources/images/logo.jpg">
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./resources/images/logo.jpg" alt="th livio Logo" height="50" id="logo-image">
+            <h2>th livio</h2> 
+        </div>
+        <nav title="menu" id="menu">
+            <a href="./contact.html"><button type="button" class="menu-button">Contact</button></a>
+            <a href="./gallery.html"><button type="button" class="menu-button">Gallery</button></a>
+            <a href="./index.html"><button type="button" class="menu-button">Home</button></a>
+            <img src="./resources/images/menu-icon.png" alt="Menu icon" width="60">
+        </nav>
+    </header>
+    <section title="title" id="title">
+        <img src="./resources/images/tree-title.png" alt="sunset" height="800" id="title-image">
+        <h1>Contact</h1>
+    </section>
+    <main class="contact">
+        <form>
+            <fieldset name="personal" class="flexbox-text">
+                <legend>Personal informations</legend>
+                <label><input type="text" name="firstname" placeholder="Firstname" required></label>
+                <label><input type="text" name="lastname" placeholder="Lastname" required></label>
+                <label><input type="email" name="email" placeholder="example@example" required></label>
+            </fieldset>
+            <fieldset name="issue">
+                <legend>Issue</legend>
+                <label><textarea name="issue" cols="30" rows="10"></textarea></label>
+            </fieldset>
+            <button type="submit">submit</button>
+        </form>
+    </main>
+    
+</body>
+</html>
