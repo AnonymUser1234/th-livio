@@ -83,6 +83,9 @@ header{
 p{
     text-align: center;
 }
+footer{
+    margin-top: 3rem;
+}
 .contact{
     display: flex;
     justify-content: center;
